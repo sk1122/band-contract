@@ -1,6 +1,9 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
+const SONGNFT_ADDRESS = '0x994C61fd4451Fa671aDBDD83F0DbD7c56C82B67d'
+const BAND_ADDRESS = '0xc5981142C36c1bcb9eE97Dd1053e9A211D5465c7'
+
 describe("Greeter", function () {
   var band, songMint, bandFactory, addr1, addr2, addr3, addr4
 
